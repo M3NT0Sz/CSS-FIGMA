@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3DS AMS</title>
+</head>
+
+<body>
+    <header class="container" style="margin-top: 20px;">
+        <h1 style="margin: 20px;">Relatórios de Aulas</h1>
+    </header>
+    <main class="container">
+        <h3 style="margin: 20px;">
+            <font color=#004aad>Filtros</font>
+        </h3>
+        <div class="divtudo">
+            <div class="filtrodiv">
+                <p style="margin-bottom: 10px;">Selecione a data</p>
+                <input type="date" class="inputdiv">
+            </div>
+            <div class="filtrodiv">
+                <p style="margin-bottom: 10px;">Selecione a escola</p>
+                <select class="inputdiv">
+                    <option value="">Fatec</option>
+                </select>
+            </div>
+            <div class="filtrodiv">
+                <p style="margin-bottom: 10px;">Selecione a turma</p>
+                <select class="inputdiv">
+                    <option value="">Turma AMS - 2023</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: column; margin: 20px; width: 300px;">
+                <h3 style="margin-bottom: 10px;">Selecione o Tipo:</h3>
+
+                <div class="checkbox">
+                    <div class="checkbox-wrapper-23">
+                        <input type="checkbox" id="check-23" checked />
+                        <label for="check-23" style="--size: 30px">
+                            <svg viewBox="0,0,50,50">
+                                <path d="M5 30 L 20 45 L 45 5"></path>
+                            </svg>
+                        </label>
+                    </div>
+                    <p style="margin-left: 10px;">Todos</p>
+                </div>
+
+                <div class="checkbox">
+                    <div class="checkbox-wrapper-24">
+                        <input type="checkbox" id="check-24" />
+                        <label for="check-24" style="--size: 30px">
+                            <svg viewBox="0,0,50,50">
+                                <path d="M5 30 L 20 45 L 45 5"></path>
+                            </svg>
+                        </label>
+                    </div>
+                    <p style="margin-left: 10px;">Arrastar e Soltar</p>
+                </div>
+
+                <div class="checkbox">
+                    <div class="checkbox-wrapper-25">
+                        <input type="checkbox" id="check-25" />
+                        <label for="check-25" style="--size: 30px">
+                            <svg viewBox="0,0,50,50">
+                                <path d="M5 30 L 20 45 L 45 5"></path>
+                            </svg>
+                        </label>
+                    </div>
+                    <p style="margin-left: 10px;">Multiplas Escolhas</p>
+                </div>
+
+                <div class="checkbox">
+                    <div class="checkbox-wrapper-26">
+                        <input type="checkbox" id="check-26" />
+                        <label for="check-26" style="--size: 30px">
+                            <svg viewBox="0,0,50,50">
+                                <path d="M5 30 L 20 45 L 45 5"></path>
+                            </svg>
+                        </label>
+                    </div>
+                    <p style="margin-left: 10px;">Envio de arquivos</p>
+                </div>
+
+                <div class="checkbox">
+                    <div class="checkbox-wrapper-27">
+                        <input type="checkbox" id="check-27" />
+                        <label for="check-27" style="--size: 30px">
+                            <svg viewBox="0,0,50,50">
+                                <path d="M5 30 L 20 45 L 45 5"></path>
+                            </svg>
+                        </label>
+                    </div>
+                    <p style="margin-left: 10px;">Enquetes</p>
+                </div>
+
+            </div>
+            <div style="margin: 20px; width: 100%;">
+                <h3 style="color: #004aad;">Aulas - Tipos</h3>
+                <div style="display: flex; flex-direction: column;">
+                    Aulas Separadas por tipos
+                    <div class="quadradodiv">
+                        GRÁFICO
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin: 20px;">
+            <h3 style="color: #004aad;">Aulas - Dono</h3>
+            <div style="display: flex; flex-direction: column;">
+                Aulas separadas por Dono
+                <div class="searchdiv">
+                    <input type="text" class="ususearch" placeholder="Buscar Usuário"><img src="lupa.png" class="lupa">
+                </div>
+                <div class="usudiv">
+                    <img src="imagem-do-usuario-com-fundo-preto.png" class="usuimg">
+                    <h5 style="color:#004aad; margin-right: 5px;">Matheus Mendes</h5>(29568395)
+                </div>
+                <div class="usudiv">
+                    <img src="imagem-do-usuario-com-fundo-preto.png" class="usuimg">
+                    <h5 style="color:#004aad; margin-right: 5px;">Matheus Mendes</h5>(29568395)
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
